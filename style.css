@@ -1,0 +1,1114 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+ul{
+    list-style: none;
+}
+.active{
+    color: hotpink;
+    text-decoration: underline;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Navbar */
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+.navbar h2{
+    font-family: 'Silkscreen', cursive;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+}
+.nav-link li{
+    margin: 0 30px;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./img/light.jpg');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.header-content{
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+.header-content h2{
+    font-size: 4vmin;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background: linear-gradient(to right, #60f5ef, #fdc942);
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: 'Silkscreen', cursive;
+}
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+/*Scroll-sown button*/
+.ctn{
+    padding: 8px 15px;
+    background: #F96099;
+    border-radius: 30px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+
+/* Learn about me */
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    background: linear-gradient(to right, #6df1ed, #abdde3, #f0bcc5, #f493b6, #f0bcc5, #fcc290, #fdc844);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+/*Column*/
+.row{
+    display: flex;
+    box-sizing: border-box;
+}
+.column{
+    flex: 100%;
+    background: #f0bcc5;
+    height: 100;
+    text-align: center;
+    border-radius: 20px;
+    margin: 2%;
+}
+.img2{
+    width: 60%;
+    height: 100%;
+    vertical-align: middle;
+    border-radius: 5%;
+    padding: 1%;
+    box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, .3);
+    transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.img2:hover{
+    box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
+}
+.img1{
+    width: 55%;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 5%;
+    padding: 1%;
+    box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, .3);
+    transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.img1:hover{
+    box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
+}
+.img3{
+    width: 55%;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 5%;
+    padding: 1%;
+    box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, .3);
+    transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.img3:hover{
+    box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
+}
+.img4{
+    width: 55%;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 5%;
+    padding: 1%;
+    box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, .3);
+    transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.img4:hover{
+    box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
+}
+.img5{
+    width: 55%;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 5%;
+    padding: 1%;
+    box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, .3);
+    transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.img5:hover{
+    box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
+}
+
+/*About*/
+.about-container{
+    background: #f0bcc5;
+    border-radius: 20px;
+    line-height: 200%;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin: 5%;
+    padding: 2%;
+}
+.about-container h2{
+    text-decoration: underline;
+    color: whitesmoke;
+}
+.about-container p{
+    padding: 2%;
+    margin-left: 5%;
+    text-align: left;    
+}
+ ul.about-list{
+    display: inline-block;
+    text-align: left;
+    list-style-type: circle;
+}
+
+/*Resume*/
+.resume-container{
+    background: #f0bcc5;
+    border-radius: 20px;
+    line-height: 200%;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin: 5%;
+    padding: 2%;
+}
+.resume-container h2{
+    text-decoration: underline;
+    color: whitesmoke;
+}
+.resume-container h4{
+    text-align: left;
+    margin-left: 10%;
+}
+.resume-container p{
+    padding: 2%;
+    margin-left: 5%;
+    text-align: left;    
+}
+.resume-list{
+    display: inline-block;
+    text-align: left;
+}
+
+/*Contact*/
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #f0bcc5;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    resize: vertical;
+}
+  
+  input[type=submit]{
+    background-color: #F96099;
+    color: whitesmoke;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+  
+  input[type=submit]:hover{
+    background-color: #fa70a3;
+}
+  
+  .container{
+    border-radius: 5px;
+    background-color: #feeff5;
+    padding: 20px;
+    margin-top: 5%;
+
+}
+
+  .container h3{
+    margin-bottom: 5px;
+}
+
+/*Portfolio*/
+section.portfolio-container{
+  display: flex;
+  position: relative;
+  border-radius: 5px;
+  background-color: #feeff5;
+  padding: 10%;
+  margin: auto;
+  border-radius: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.portfolio-container{
+    display: flex;
+    position: relative;
+    border-radius: 5px;
+    background-color: #feeff5;
+    padding: 10%;
+    margin: auto;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.portfolio-container h2{
+  color: black;
+  text-align: center;
+  display: flex;
+}
+
+.portfolio-container p{
+  color: black;
+  display: flex;
+}
+
+.form{
+  background-color: #feeff5;
+  padding: 10%;
+  margin: auto;
+  border-radius: 20px;
+}
+
+
+/*Bird*/
+.bird {
+  width: 194px;
+  height: 330px;
+  position: relative;
+  top: 26px;
+  left: 28px;
+}
+
+.head {
+  position: absolute;
+  width: 53px;
+  height: 53px;
+  top: 0;
+  left: 73px;
+  background-color: #F96099;
+  border-radius: 50%;
+  z-index: 6;
+}
+
+.face {
+  position: relative;
+}
+
+.eye {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  animation-name: changeZIndex;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+}
+.eye_right {
+  left: -29px;
+  top: 23px;
+}
+.eye_left {
+  left: 1px;
+  top: 23px;
+  animation-direction: reverse;
+}
+.eye__inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 50%;
+  overflow: hidden;
+  animation-name: moveEyes;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+}
+.eye__inner_right::before, .eye__inner_left::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100%;
+  background-color: #F96099;
+  transform: translateY(-100%);
+  z-index: 5;
+  animation-name: blinkTopEyelid;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+}
+.eye__inner_right::after, .eye__inner_left::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background-color: #F96099;
+  transform: translateY(100%);
+  z-index: 5;
+  animation-name: blinkBottomEyelid;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+}
+.eye__pupil {
+  position: absolute;
+  top: 18px;
+  left: 27%;
+  width: 15px;
+  height: 15px;
+  background-color: #413A50;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 4;
+  animation-name: movePupils;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+}
+
+.nose {
+  width: 45px;
+  height: 24px;
+  position: absolute;
+  top: 48px;
+  right: 34px;
+  background-color: #EEBE24;
+  z-index: 2;
+  border-radius: 77% 23% 25% 75%/55% 52% 48% 45%;
+  transform: scaleX(1);
+  transform-origin: right center;
+  animation-name: moveNose;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+}
+
+.body-wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.body1 {
+  position: absolute;
+  width: 65px;
+  height: 190px;
+  right: 73px;
+  top: 28px;
+  transform: skew(-3deg, 0deg);
+  background-color: #F96099;
+  border-radius: 190px 0 0 0;
+}
+
+.body2 {
+  position: absolute;
+  width: 49px;
+  height: 215px;
+  left: 36px;
+  top: 13px;
+  transform: skew(-21deg, 0deg);
+  border-radius: 8px 10px 0 53px;
+  background-color: #F96099;
+}
+
+.body3 {
+  position: absolute;
+  width: 104px;
+  height: 73px;
+  left: 10px;
+  bottom: 63px;
+  border-radius: 0 0 0 73px;
+  background-color: #F96099;
+}
+.body3::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 87px;
+  height: 77px;
+  top: 5px;
+  right: -46px;
+  transform: rotate(-69deg);
+  background-color: #F96099;
+  border-radius: 0 0 13px 80px;
+}
+
+.leg {
+  position: absolute;
+  width: 13px;
+  height: 79px;
+  bottom: 10px;
+  transform: rotate(-19deg);
+  border-radius: 10px;
+}
+.leg_left {
+  right: 90px;
+  background-color: #EEBE24;
+  z-index: 2;
+}
+.leg_right {
+  right: 106px;
+  background-color: #d8a911;
+}
+
+.tail {
+  position: absolute;
+  width: 58px;
+  height: 58px;
+  right: 25px;
+  bottom: 103px;
+  background-color: #76334a;
+  border-radius: 0 14% 100% 0;
+  transform: rotate(-45deg) translateY(6px);
+  animation-name: moveTail;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+}
+
+.pseudo-knife {
+  width: 250px;
+  height: 220px;
+  position: absolute;
+  top: 60px;
+  left: -43px;
+  transform-origin: 86px 111px;
+  opacity: 0;
+  animation-name: pseudoKnifeRotate;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+}
+.pseudo-knife__blade {
+  width: 250px;
+  height: 220px;
+  position: absolute;
+  border-radius: 50%;
+  clip-path: polygon(50% 58%, 15% 0, 88% 0);
+  background: radial-gradient(#91C1C6 25%, #fff 25% 45%, #91C1C6 45% 100%);
+  transform: rotate(-153deg);
+}
+.pseudo-knife__handle {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  right: 75px;
+  top: 45px;
+  border-radius: 50%;
+  clip-path: polygon(50% 58%, 15% 0, 88% 0);
+  background: var(--pupilsColor);
+  transform: rotate(20deg);
+}
+
+.knife {
+  position: absolute;
+  top: 67px;
+  left: -9px;
+  transform: rotate(-14deg);
+  opacity: 0;
+  animation-name: showKnife;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+}
+.knife::before {
+  content: "✦";
+  position: absolute;
+  top: -13px;
+  right: -8px;
+  color: #fff;
+  font-size: 20px;
+  transform: scale(1);
+  z-index: 16;
+  animation-name: bladeFlare;
+  animation-duration: 400ms;
+  animation-fill-mode: both;
+  animation-delay: 2.5s;
+}
+.knife__blade {
+  position: relative;
+  width: 22px;
+  height: 86px;
+  background-color: #91C1C6;
+  border-radius: 92% 6% 0 100%/100% 6% 94% 0;
+  overflow: hidden;
+}
+.knife__blade::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 20px;
+  position: absolute;
+  top: 40%;
+  left: -50%;
+  right: -50%;
+  transform: rotate(-30deg);
+  background-color: #fff;
+  z-index: 10;
+  animation-name: bladeBlink;
+  animation-duration: 500ms;
+  animation-fill-mode: both;
+  animation-delay: 2s;
+}
+.knife__handle {
+  width: 53px;
+  height: 13px;
+  background: #383048;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 85px;
+  border-radius: 25px;
+}
+.knife__handle::after {
+  content: "";
+  width: 21px;
+  height: 43px;
+  background: #383048;
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 0 0 20px 20px;
+}
+
+@keyframes blinkTopEyelid {
+  0% {
+    transform: translateY(-100%);
+  }
+  8% {
+    transform: translateY(-100%);
+  }
+  10% {
+    transform: translateY(-50%);
+  }
+  12% {
+    transform: translateY(-100%);
+  }
+  25% {
+    transform: translateY(-100%);
+  }
+  28% {
+    transform: translateY(-50%);
+  }
+  30% {
+    transform: translateY(-65%);
+  }
+  75% {
+    transform: translateY(-65%);
+  }
+  77% {
+    transform: translateY(-50%);
+  }
+  79% {
+    transform: translateY(-100%);
+  }
+  92% {
+    transform: translateY(-100%);
+  }
+  95% {
+    transform: translateY(-50%);
+  }
+  98% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+@keyframes blinkBottomEyelid {
+  0% {
+    transform: translateY(100%);
+  }
+  8% {
+    transform: translateY(100%);
+  }
+  10% {
+    transform: translateY(50%);
+  }
+  12% {
+    transform: translateY(100%);
+  }
+  25% {
+    transform: translateY(100%);
+  }
+  28% {
+    transform: translateY(50%);
+  }
+  30% {
+    transform: translateY(100%);
+  }
+  75% {
+    transform: translateY(100%);
+  }
+  77% {
+    transform: translateY(50%);
+  }
+  79% {
+    transform: translateY(100%);
+  }
+  92% {
+    transform: translateY(100%);
+  }
+  95% {
+    transform: translateY(50%);
+  }
+  98% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes changeZIndex {
+  0% {
+    z-index: 2;
+  }
+  74% {
+    z-index: 2;
+  }
+  75% {
+    z-index: 4;
+  }
+  99% {
+    z-index: 4;
+  }
+  100% {
+    z-index: 2;
+  }
+}
+@keyframes moveEyes {
+  0% {
+    transform: translateX(0);
+  }
+  38% {
+    transform: translateX(0);
+  }
+  40% {
+    transform: translateX(20%);
+  }
+  74% {
+    transform: translateX(20%);
+  }
+  75% {
+    transform: translateX(80%);
+  }
+  90% {
+    transform: translateX(80%);
+  }
+  98% {
+    transform: translateX(80%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes movePupils {
+  0% {
+    left: 27%;
+  }
+  12% {
+    left: 27%;
+  }
+  15% {
+    left: 59%;
+  }
+  19% {
+    left: 59%;
+  }
+  22% {
+    left: 27%;
+  }
+  35% {
+    left: 27%;
+  }
+  40% {
+    left: 55%;
+  }
+  90% {
+    left: 55%;
+  }
+  100% {
+    left: 27%;
+  }
+}
+@keyframes moveTail {
+  0% {
+    transform: rotate(-45deg) translateY(6px);
+  }
+  44.5% {
+    transform: rotate(-45deg) translate(0, 6px);
+  }
+  45.5% {
+    transform: rotate(-3deg) translate(6px, 21px);
+  }
+  46% {
+    transform: rotate(-45deg) translate(0, 6px);
+  }
+  46.5% {
+    transform: rotate(-63deg) translate(7px, 1px);
+  }
+  47% {
+    transform: rotate(-55deg) translate(0, 6px);
+  }
+  47.5% {
+    transform: rotate(-45deg) translate(0, 6px);
+  }
+  48% {
+    transform: rotate(-10deg) translate(5px, 17px);
+  }
+  48.5% {
+    transform: rotate(-45deg) translate(0, 6px);
+  }
+  49% {
+    transform: rotate(-50deg) translate(9px, 5px);
+  }
+  49.5% {
+    transform: rotate(-45deg) translate(0, 6px);
+  }
+  94.5% {
+    transform: rotate(-45deg) translate(0, 6px);
+  }
+  95.5% {
+    transform: rotate(-3deg) translate(6px, 21px);
+  }
+  96% {
+    transform: rotate(-45deg) translate(0, 6px);
+  }
+  96.5% {
+    transform: rotate(-63deg) translate(7px, 1px);
+  }
+  97% {
+    transform: rotate(-55deg) translate(0, 6px);
+  }
+  97.5% {
+    transform: rotate(-45deg) translate(0, 6px);
+  }
+  98% {
+    transform: rotate(-10deg) translate(5px, 17px);
+  }
+  98.5% {
+    transform: rotate(-45deg) translate(0, 6px);
+  }
+  99% {
+    transform: rotate(-50deg) translate(9px, 5px);
+  }
+  99.5% {
+    transform: rotate(-45deg) translate(0, 6px);
+  }
+  100% {
+    transform: rotate(-45deg) translate(0, 6px);
+  }
+}
+@keyframes showKnife {
+  0% {
+    opacity: 0;
+  }
+  43% {
+    opacity: 0;
+  }
+  44% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  82% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes bladeBlink {
+  0% {
+    transform: rotate(-30deg) translateY(0s);
+  }
+  100% {
+    transform: rotate(-30deg) translateY(-38px);
+  }
+}
+@keyframes bladeFlare {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes pseudoKnifeRotate {
+  0% {
+    opacity: 0;
+    transform: rotate(-600deg);
+  }
+  33% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+    transform: rotate(-600deg);
+  }
+  44% {
+    opacity: 1;
+    transform: rotate(120deg);
+  }
+  45% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+    transform: rotate(180deg);
+  }
+  85% {
+    opacity: 1;
+    transform: rotate(-375deg);
+  }
+  86% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(-375deg);
+  }
+}
+@keyframes moveNose {
+  0% {
+    border-radius: 77% 23% 25% 75%/55% 52% 48% 45%;
+    transform: scaleX(1) rotate(0deg);
+  }
+  39.5% {
+    border-radius: 77% 23% 25% 75%/55% 52% 48% 45%;
+    transform: scaleX(1) rotate(0deg);
+  }
+  40% {
+    transform: scaleX(0.67) rotate(0deg);
+    border-radius: 71% 29% 50% 58%/70% 30% 70% 30%;
+  }
+  74% {
+    transform: scaleX(0.67) rotate(0deg);
+    border-radius: 71% 29% 50% 58%/70% 30% 70% 30%;
+    z-index: 2;
+  }
+  74.5% {
+    border-radius: 77% 23% 25% 75%/55% 52% 48% 45%;
+    transform: scaleX(1) rotate(186deg);
+    z-index: 3;
+  }
+  99% {
+    border-radius: 77% 23% 25% 75%/55% 52% 48% 45%;
+    transform: scaleX(1) rotate(186deg);
+    z-index: 3;
+  }
+  100% {
+    border-radius: 77% 23% 25% 75%/55% 52% 48% 45%;
+    transform: scaleX(1) rotate(0deg);
+    z-index: 2;
+  }
+}
+    
+/*Clock*/
+.clock{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 100%;
+    border: 20px solid #F96099;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.clock .twelve{
+    position: absolute;
+    width: 6px;
+    height: 8px;
+    background: #262626;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.clock .three{
+    position: absolute;
+    width: 8px;
+    height: 3px;
+    background: #262626;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto 0;
+}
+.clock .six{
+    position: absolute;
+    width: 6px;
+    height: 8px;
+    background: #262626;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.clock .nine {
+    position: absolute;
+    width: 8px;
+    height: 3px;
+    background: #262626;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto 0;
+}
+.clock .center {
+    height: 6px;
+    width: 6px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #262626;
+    border-radius: 100%;
+}
+
+.clock .hour {
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    animation: time 60s infinite linear;
+}
+.clock .hour:before {
+    position: absolute;
+    content: "";
+    background: #262626;
+    height: 60px;
+    width: 3px;
+    top: 30px;
+}
+.clock .minute {
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    animation: time 30s infinite linear;
+}
+.clock .minute:before {
+    position: absolute;
+    content: "";
+    background: #262626;
+    height: 40px;
+    width: 1px;
+    top: 50px;
+}
+.clock .second {
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    animation: time 15s infinite linear;
+}
+.clock .second:before {
+    position: absolute;
+    content: "";
+    background: #fd1111;
+    height: 45px;
+    width: 2px;
+    top: 45px;
+}
+@keyframes time {
+    to {
+        transform: rotate(360deg);
+   }
+}
+
+/*Mobile Device*/
+@media only screen and (max-width:850px){
+    .menu-btn{
+        display: block;
+    }
+    .navbar{
+        padding: 0;
+    }
+    .logo{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    .nav-link{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background: #f0bcc5;
+        margin-top: -900px;
+        transition: all 0.5s ease;
+    }
+    .mobile-menu{
+        margin-top: 0px;
+        border-bottom-right-radius: 30%;
+    }
+    .nav-link li{
+        margin: 30px auto;
+    }
+}

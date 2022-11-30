@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAFALDA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h2 class="logo">MAFALDAS</h2>
+        <ul class="nav-link">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="resume.html">Resumé</a></li>
+            <li  class="ctn active"><a href="contact.html">Contact</a></li>
+        </ul>
+        <img src="./img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="container">
+                <h3>Contact Form</h3>
+                
+                <label for="fullname">Full Name</label><br>
+                <input placeholder="Your full name.." type="text" id="fullname">
+                
+                
+                <label for="email">Email Address</label><br>
+                <input placeholder="Your email.." type="text" id="email">
+                
+                
+                <label for="phone">Phone Number</label><br>
+                <input placeholder="Your number.." type="text" id="phone">
+                    
+                    <label for="subject">Subject</label>
+                    <textarea placeholder="Type your message here.." name="subject" id="subject" style="height: 100px;"></textarea>
+
+                    <form id="upload">
+                        <label for="file">File to upload</label>
+                        <input type="file" id="file" accept=".json">
+                
+                        <button>Upload</button>
+                    </form>
+                    <br>
+                    <input class="ctn" type="submit" value="Submit">
+        </div>
+    </header>
+
+    <script src="js/contact.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
